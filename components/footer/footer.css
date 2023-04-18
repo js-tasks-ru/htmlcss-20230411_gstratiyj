@@ -1,12 +1,14 @@
 .footer {
-    height: 384px;
     text-align: center;
+    padding-top: 71px;
+    padding-bottom: 136px;
 }
 
 .footer__title {
     font-weight: 500;
     font-size: 38px;
-    padding-top: 71px;
+    line-height: 48px;
+    font-family: 'Inter';
 }
 
 .footer__text {
@@ -14,4 +16,6 @@
     font-size: 16px;
     display: inline-block;
     max-width: 640px;
+    line-height: 24px;
+    font-family: 'Inter';
 }
