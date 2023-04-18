@@ -1,4 +1,9 @@
 @import '../fonts/fonts.css';
+@import '../../components/page/page.css';
+@import '../../components/content/content.css';
+@import '../../components/footer/footer.css';
+@import '../../components/header/header.css';
+
 
 :root {
     --white: #ffffff;
@@ -21,4 +26,9 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
 }

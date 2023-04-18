@@ -1,0 +1,15 @@
+.header {
+    height: 237px;
+}
+
+.header__title {
+    position: absolute;
+    padding-left: 160px;
+    padding-top: 96px;
+    padding-bottom: 77px;
+
+
+    font-weight: 500;
+font-size: 50px;
+line-height: 64px;
+}
