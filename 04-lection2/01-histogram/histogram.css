@@ -1,0 +1,55 @@
+.histogram {
+    width: 50%;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px 24px 24px 24px;
+}
+/* Стилизация Header */
+.histogram__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.histogram__option {
+    padding: 19px 24px;
+    cursor: pointer;
+    color: #4263EB;
+}
+
+.histogram__option:hover {
+    text-decoration: underline;
+}
+
+.histogram__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.histogram__orders {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+/* Стилизация Header */
+  
+/* Стилизация Гистограммы */
+.histogram__data {
+    padding: 50px 29px 24px 0px;
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.histogram__bar {
+    background-color: #4263EB;
+    margin: 0px 1px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
