@@ -3,7 +3,9 @@
     --color-primary: #4263EB;
     --color-secondary: #7048E8;
     --color-alternate: #E5E5E5;
-    padding: 15px 65px;
+    padding: 0px 65px;
+    height: 48px;
+    max-width: 189px;
     border-radius: 8px;
     border: none;
     font-family: 'Roboto';
