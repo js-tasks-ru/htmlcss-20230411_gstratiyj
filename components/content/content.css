@@ -5,4 +5,21 @@
     border-bottom: 1px solid red;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 
+.content__cards {
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 68px 165px;
+    width: 1110px;
+    margin: 0;
+}
+
+.content__card {
+    background-color: greenyellow;
+}
