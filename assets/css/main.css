@@ -3,6 +3,7 @@
 @import '../../components/content/content.css';
 @import '../../components/footer/footer.css';
 @import '../../components/header/header.css';
+@import '../../components/sidebar/sidebar.css';
 
 
 :root {
@@ -31,4 +32,5 @@
 body, html{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
