@@ -1,19 +1,18 @@
-(function() {
-    const close = document.getElementById('modal-close');
-    const modal = document.getElementById('modal');
-    const modalOpen = document.getElementById('modal-open');
+const modal = document.getElementById('modal');
+const modalOpenBtn = document.getElementById('modal-open');
+const modalBack = document.getElementById('modal__view');
 
-    if (!close || !modalOpen || !modal) {
-        return;
-    }
+function openModal() {
+    modal.style.display = 'block';
+    modalBack.style.display = 'block';
+}
 
-    modalOpen.addEventListener('click', () => {
-        modal.style.display = 'block';
-        document.body.overflow = 'hidden';
-    });
+function closeModal() {
+    modal.style.display = 'none';
+    modalBack.style.display = 'none';
+}
 
-    close.addEventListener('click', () => {
-        modal.style.display = 'none';
-        document.body.overflow = 'initial';
-    });
-})();
+modalOpenBtn.addEventListener('click', openModal);
+
+const modalCloseBtn = document.getElementById('modal__close');
+modalCloseBtn.addEventListener('click', closeModal);
